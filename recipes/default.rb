@@ -76,7 +76,7 @@ end
 
 # download storm
 remote_file "#{Chef::Config[:file_cache_path]}/storm-#{node[:storm][:version]}.zip" do
-  source "https://github.com/downloads/nathanmarz/storm/storm-#{node['storm']['version']}.zip"
+  source "#{node[:storm][:download_url]}/storm-#{node['storm']['version']}.zip"
   owner  "storm"
   group  "storm"
   mode   00744

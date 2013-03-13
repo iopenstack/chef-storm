@@ -6,6 +6,7 @@
 # Copyright 2012, Webtrends Inc.
 #
 
+default['storm']['download_url'] = "https://github.com/downloads/nathanmarz/storm"
 default['storm']['version'] = "0.8.1"
 default['storm']['install_dir'] = "/opt/storm"
 default['storm']['log_dir'] = "/var/log/storm"
