@@ -42,7 +42,7 @@ end
 end
 
 # search
-storm_nimbus = search(:node, "role:storm_nimbus AND role:#{node['storm']['cluster_role']} AND chef_environment:#{node.chef_environment}").first
+storm_nimbus = search(:node, "role:storm_nimbus AND storm_cluster_role:#{node['storm']['cluster_role']} AND chef_environment:#{node.chef_environment}").first
 
 # search for zookeeper servers
 zookeeper_quorum = Array.new
