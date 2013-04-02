@@ -1,3 +1,7 @@
+Caution
+=======
+Not maintained anymore. Please use https://github.com/Technicolor-Portico/ironfan-pantry/tree/develop/cookbooks/storm instead.
+
 Description
 ===========
 Installs Twitter's Storm distributed computation platform.  Includes recipes for installing
